@@ -8,7 +8,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [isDesktop, setIsDesktop] = useState(false);
 
-  const menuItems = ["Home", "Services", "Portfolio", "About", "Contact"];
+  const menuItems = ["Inicio", "Servicios", "Portfolio", "Nosotros", "Contacto"];
 
   useEffect(() => {
     const checkScreen = () => {

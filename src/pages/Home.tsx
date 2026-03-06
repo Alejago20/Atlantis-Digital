@@ -1,5 +1,7 @@
-import Hero from "../components/home/Hero"
-import ServiceSection from "../components/home/ServiceSection"
+import AboutSection from "../components/home/AboutSection"
+import Hero from "../components/home/hero/Hero"
+import ServiceSection from "../components/home/servicios/ServiceSection"
+
 
 
 const Home = () => {
@@ -7,6 +9,7 @@ const Home = () => {
   <>
   <Hero></Hero>
   <ServiceSection/>
+  <AboutSection></AboutSection>
   </>
   )
 }
