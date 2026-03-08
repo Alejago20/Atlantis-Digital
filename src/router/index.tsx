@@ -3,6 +3,7 @@ import  RootLayout  from "../layouts/RootLayout";
 
 
 import Home from "../pages/Home";
+import Contacto from "../pages/Contacto";
 
 export const router = createBrowserRouter([
   {
@@ -13,18 +14,18 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home/>,
       },
-      /* {
+       /* {
         path: "services",
         element: <ServicesPage />,
       },
       {
         path: "about",
         element: <AboutPage />,
-      },
-      {
-        path: "contact",
-        element: <ContactPage />,
       }, */
+    {
+        path: "contacto",
+        element: <Contacto />,
+      }, 
     ],
   },
 ]);

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeroContent = () => {
   return (
     <div>
@@ -16,9 +18,15 @@ const HeroContent = () => {
       </p>
 
       <div className="mt-10 flex gap-4">
-        <button className="px-6 py-3 rounded-xl bg-sky-500 text-white font-semibold">
+        
+           <Link
+          to="/contacto"
+          className="px-6 py-3 rounded-xl bg-sky-500 text-white font-semibold"
+        >
           Contacto
-        </button>
+        </Link>
+       
+      
 
         <button className="px-6 py-3 rounded-xl border border-white/10 text-white">
           Ver Portafolio
