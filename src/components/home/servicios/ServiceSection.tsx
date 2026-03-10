@@ -2,7 +2,7 @@ import ServicieCard from "./ServicieCard";
 
 const ServiceSection = () => {
   return (
-    <section className="relative overflow-hidden bg-[#101E2A] ">
+    <section id="servicios" className="relative overflow-hidden bg-[#101E2A] ">
       <div className="absolute inset-0 bg-gradient-to-r from-[#020b10] via-[#041b24] to-[#020b10] " />
 
       <div className="relative max-w-7xl flex flex-col mx-auto px-6 ">

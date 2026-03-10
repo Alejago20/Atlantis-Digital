@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className="relative overflow-hidden bg-[#111D23]">
+    <section id="nosotros" className="relative overflow-hidden bg-[#111D23]">
       <div className="absolute inset-0 bg-gradient-to-r from-[#020b10] via-[#041b24] to-[#020b10]" />
 
       <div className="relative max-w-6xl mx-auto px-6 py-28">
@@ -29,38 +29,19 @@ const AboutSection = () => {
               Uniendo Visión y <span className="text-sky-400">Realidad</span>
             </h2>
 
-            <p className="text-gray-400">
-              Atlantis Digital es un colectivo de diseñadores, desarrolladores y
-              estrategas. Nos especializamos en ayudar a las PYMES a navegar la
-              transformación digital con servicios de consultoría premium.
+            <p className="text-gray-400 text-left">
+             Atlantis Digital es una agencia digital enfocada en ayudar a las PYMES a crecer en el mundo digital. Combinamos diseño, desarrollo web y estrategia para crear experiencias digitales que conectan marcas con sus clientes.
             </p>
 
             {/* ESTADISTICAS */}
             <div className="grid grid-cols-2 gap-8 pt-6">
-              <div className="flex gap-4">
-                <div className="w-[2px] h-12 bg-sky-400"></div>
-                <div>
-                  <h3 className="text-2xl font-bold text-white">150+</h3>
-                  <p className="text-xs font-semibold text-gray-400">
-                    PROYECTOS ENTREGADOS
-                  </p>
-                </div>
-              </div>
 
               <div className="flex gap-4">
                 <div className="w-[2px] h-12 bg-sky-400"></div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white">12</h3>
-                  <p className="text-xs font-semibold text-gray-400">PREMIOS</p>
-                </div>
-              </div>
-
-              <div className="flex gap-4">
-                <div className="w-[2px] h-12 bg-sky-400"></div>
-                <div>
-                  <h3 className="text-2xl font-bold text-white">98%</h3>
+                  <h3 className="text-xl font-bold text-white">PYMES</h3>
                   <p className="text-xs font-semibold text-gray-400">
-                    RETENCIÓN
+                    NUESTRO ENFOQUE
                   </p>
                 </div>
               </div>
@@ -69,7 +50,7 @@ const AboutSection = () => {
                 <div className="w-[2px] h-12 bg-sky-400"></div>
                 <div>
                   <h3 className="text-2xl font-bold text-white">24/7</h3>
-                  <p className="text-xs font-semibold text-gray-400">SOPORTE</p>
+                  <p className="text-xs font-semibold text-gray-400">ACOMPAÑAMIENTO</p>
                 </div>
               </div>
 
