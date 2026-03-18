@@ -23,7 +23,7 @@ const Portafolio = () => {
           </p>
         </div>
 
-        {/* Aquí irán los proyectos */}
+        {/* Aquí irán los proyectos** */}
         <div className="grid md:grid-cols-2 gap-10">
           {projects.map((project) => (
             <PortfolioCard
